@@ -15,7 +15,7 @@ body {
 }
 
 a {
-  color: #cda45e;
+  color: #15c040;
   text-decoration: none;
 }
 
@@ -92,15 +92,15 @@ h1, h2, h3, h4, h5, h6 {
   height: 44px;
   border-radius: 50px;
   transition: all 0.4s;
-  border: 2px solid #cda45e;
+  border: 2px solid #15c040;
 }
 .back-to-top i {
   font-size: 28px;
-  color: #cda45e;
+  color: #15c040;
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #cda45e;
+  background: #15c040;
   color: #1a1814;
 }
 .back-to-top:hover i {
@@ -131,11 +131,11 @@ h1, h2, h3, h4, h5, h6 {
 #topbar.topbar-scrolled {
   top: -40px;
 }
-#topbar .contact-info i {
+#topbar .contacto-info i {
   font-style: normal;
   color: #d9ba85;
 }
-#topbar .contact-info i span {
+#topbar .contacto-info i span {
   padding-left: 5px;
   color: #fff;
 }
@@ -145,7 +145,7 @@ h1, h2, h3, h4, h5, h6 {
   list-style: none;
   padding: 0;
   margin: 0;
-  color: #cda45e;
+  color: #15c040;
 }
 #topbar .languages ul a {
   color: white;
@@ -196,7 +196,7 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Book a table button Menu
 --------------------------------------------------------------*/
-.reserva-carro-btn {
+.contacto-btn {
   margin: 0 0 0 15px;
   border: 2px solid #15c040;
   color: #fff;
@@ -208,7 +208,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 1px;
   transition: 0.3s;
 }
-.reserva-carro-btn:hover {
+.contacto-btn:hover {
   background: #15c040;
   color: #fff;
 }
@@ -365,7 +365,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #1a1814;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #cda45e;
+  color: #15c040;
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
@@ -391,7 +391,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #cda45e;
+  color: #15c040;
 }
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
@@ -458,7 +458,7 @@ h1, h2, h3, h4, h5, h6 {
   border: 2px solid #15c040;
 }
 #hero .btn-menu:hover, #hero .btn-book:hover {
-  background: #cda45e;
+  background: #15c040;
   color: #fff;
 }
 #hero .btn-book {
@@ -510,7 +510,7 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(198, 16, 0, 0);
 }
 #hero .play-btn:hover::after {
-  border-left: 15px solid #cda45e;
+  border-left: 15px solid #15c040;
   transform: scale(20);
 }
 #hero .play-btn:hover::before {
@@ -705,8 +705,8 @@ section {
   height: 60px;
   z-index: 1;
   content: "";
-  border-left: 5px solid #cda45e;
-  border-top: 5px solid #cda45e;
+  border-left: 5px solid #15c040;
+  border-top: 5px solid #15c040;
   transition: 0.5s;
 }
 .about .about-img::after {
@@ -717,8 +717,8 @@ section {
   height: 60px;
   z-index: 2;
   content: "";
-  border-right: 5px solid #cda45e;
-  border-bottom: 5px solid #cda45e;
+  border-right: 5px solid #15c040;
+  border-bottom: 5px solid #15c040;
   transition: 0.5s;
 }
 .about .about-img:hover {
@@ -771,7 +771,7 @@ section {
   display: block;
   font-size: 28px;
   font-weight: 700;
-  color: #cda45e;
+  color: #15c040;
 }
 .why-us .box h4 {
   font-size: 24px;
@@ -787,7 +787,7 @@ section {
   padding: 0;
 }
 .why-us .box:hover {
-  background: #cda45e;
+  background: #15c040;
   padding: 30px 30px 70px 30px;
   box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
 }
@@ -819,7 +819,7 @@ section {
   font-family: "Playfair Display", serif;
 }
 .menu #menu-flters li:hover, .menu #menu-flters li.filter-active {
-  color: #cda45e;
+  color: #15c040;
 }
 .menu #menu-flters li:last-child {
   margin-right: 0;
@@ -860,7 +860,7 @@ section {
   transition: 0.3s;
 }
 .menu .menu-content a:hover {
-  color: #cda45e;
+  color: #15c040;
 }
 .menu .menu-content span {
   background: #1a1814;
@@ -868,7 +868,7 @@ section {
   z-index: 3;
   padding: 0 10px;
   font-weight: 600;
-  color: #cda45e;
+  color: #15c040;
 }
 .menu .menu-ingredients {
   margin-left: 85px;
@@ -893,20 +893,20 @@ section {
   transition: 0.3s;
   color: #fff;
   border-radius: 0;
-  border-right: 2px solid #cda45e;
+  border-right: 2px solid #15c040;
   font-weight: 600;
   font-size: 15px;
 }
 .specials .nav-link:hover {
-  color: #cda45e;
+  color: #15c040;
 }
 .specials .nav-link.active {
   color: #1a1814;
-  background: #cda45e;
-  border-color: #cda45e;
+  background: #15c040;
+  border-color: #15c040;
 }
 .specials .nav-link:hover {
-  border-color: #cda45e;
+  border-color: #15c040;
 }
 .specials .tab-pane.active {
   -webkit-animation: fadeIn 0.5s ease-out;
@@ -969,7 +969,7 @@ section {
 .events .event-item h3 {
   font-weight: 600;
   font-size: 26px;
-  color: #cda45e;
+  color: #15c040;
 }
 .events .event-item .price {
   font-size: 26px;
@@ -978,7 +978,7 @@ section {
   margin-bottom: 15px;
 }
 .events .event-item .price span {
-  border-bottom: 2px solid #cda45e;
+  border-bottom: 2px solid #15c040;
 }
 .events .event-item ul {
   list-style: none;
@@ -990,7 +990,7 @@ section {
 .events .event-item ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #cda45e;
+  color: #15c040;
 }
 .events .event-item p:last-child {
   margin-bottom: 0;
@@ -1006,7 +1006,7 @@ section {
   opacity: 1;
 }
 .events .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #cda45e;
+  background-color: #15c040;
 }
 
 /*--------------------------------------------------------------
@@ -1056,7 +1056,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #cda45e;
+  border: 3px solid #15c040;
   border-top-color: #1a1814;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -1076,7 +1076,7 @@ section {
   color: #a49b89;
 }
 .reserva-carro .php-email-form input:focus, .reserva-carro .php-email-form textarea:focus {
-  border-color: #cda45e;
+  border-color: #15c040;
 }
 .reserva-carro .php-email-form input {
   height: 44px;
@@ -1085,7 +1085,7 @@ section {
   padding: 10px 12px;
 }
 .reserva-carro .php-email-form button[type=submit] {
-  background: #cda45e;
+  background: #15c040;
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -1161,21 +1161,21 @@ section {
   opacity: 1;
 }
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #cda45e;
+  background-color: #15c040;
 }
 
 /*--------------------------------------------------------------
-# Gallery
+# galeria
 --------------------------------------------------------------*/
-.gallery .gallery-item {
+.galeria .galeria-item {
   overflow: hidden;
-  border-right: 3px solid #454035;
-  border-bottom: 3px solid #454035;
+  border-right: 3px solid #15c040;
+  border-bottom: 3px solid #15c040;
 }
-.gallery .gallery-item img {
+.galeria .galeria-item img {
   transition: all ease-in-out 0.4s;
 }
-.gallery .gallery-item:hover img {
+.galeria .galeria-item:hover img {
   transform: scale(1.1);
 }
 
@@ -1233,7 +1233,7 @@ section {
   display: inline-block;
 }
 .chefs .member .social a:hover {
-  color: #cda45e;
+  color: #15c040;
 }
 .chefs .member .social i {
   font-size: 18px;
@@ -1254,53 +1254,53 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Contact
+# contacto
 --------------------------------------------------------------*/
-.contact .info {
+.contacto .info {
   width: 100%;
 }
-.contact .info i {
+.contacto .info i {
   font-size: 20px;
   float: left;
   width: 44px;
   height: 44px;
-  background: #cda45e;
+  background: #15c040;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50px;
   transition: all 0.3s ease-in-out;
 }
-.contact .info h4 {
+.contacto .info h4 {
   padding: 0 0 0 60px;
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 5px;
   font-family: "Poppins", sans-serif;
 }
-.contact .info p {
+.contacto .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
   color: #bab3a6;
 }
-.contact .info .open-hours, .contact .info .email, .contact .info .phone {
+.contacto .info .open-hours, .contacto .info .email, .contacto .info .phone {
   margin-top: 40px;
 }
-.contact .php-email-form {
+.contacto .php-email-form {
   width: 100%;
 }
-.contact .php-email-form .form-group {
+.contacto .php-email-form .form-group {
   padding-bottom: 8px;
 }
-.contact .php-email-form .validate {
+.contacto .php-email-form .validate {
   display: none;
   color: red;
   margin: 0 0 15px 0;
   font-weight: 400;
   font-size: 13px;
 }
-.contact .php-email-form .error-message {
+.contacto .php-email-form .error-message {
   display: none;
   color: #fff;
   background: #ed3c0d;
@@ -1308,7 +1308,7 @@ section {
   padding: 15px;
   font-weight: 600;
 }
-.contact .php-email-form .sent-message {
+.contacto .php-email-form .sent-message {
   display: none;
   color: #fff;
   background: #18d26e;
@@ -1316,24 +1316,24 @@ section {
   padding: 15px;
   font-weight: 600;
 }
-.contact .php-email-form .loading {
+.contacto .php-email-form .loading {
   display: none;
   text-align: center;
   padding: 15px;
 }
-.contact .php-email-form .loading:before {
+.contacto .php-email-form .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #cda45e;
+  border: 3px solid #15c040;
   border-top-color: #1a1814;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
 }
-.contact .php-email-form input, .contact .php-email-form textarea {
+.contacto .php-email-form input, .contacto .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
@@ -1341,30 +1341,30 @@ section {
   border-color: #625b4b;
   color: white;
 }
-.contact .php-email-form input::-moz-placeholder, .contact .php-email-form textarea::-moz-placeholder {
+.contacto .php-email-form input::-moz-placeholder, .contacto .php-email-form textarea::-moz-placeholder {
   color: #a49b89;
 }
-.contact .php-email-form input::placeholder, .contact .php-email-form textarea::placeholder {
+.contacto .php-email-form input::placeholder, .contacto .php-email-form textarea::placeholder {
   color: #a49b89;
 }
-.contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
-  border-color: #cda45e;
+.contacto .php-email-form input:focus, .contacto .php-email-form textarea:focus {
+  border-color: #15c040;
 }
-.contact .php-email-form input {
+.contacto .php-email-form input {
   height: 44px;
 }
-.contact .php-email-form textarea {
+.contacto .php-email-form textarea {
   padding: 10px 12px;
 }
-.contact .php-email-form button[type=submit] {
-  background: #cda45e;
+.contacto .php-email-form button[type=submit] {
+  background: #15c040;
   border: 0;
   padding: 10px 35px;
   color: #fff;
   transition: 0.4s;
   border-radius: 50px;
 }
-.contact .php-email-form button[type=submit]:hover {
+.contacto .php-email-form button[type=submit]:hover {
   background: #d3af71;
 }
 @-webkit-keyframes animate-loading {
@@ -1433,7 +1433,7 @@ section {
   transition: 0.3s;
 }
 #footer .footer-top .social-links a:hover {
-  background: #cda45e;
+  background: #15c040;
   color: #fff;
   text-decoration: none;
 }
@@ -1454,7 +1454,7 @@ section {
 }
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #cda45e;
+  color: #15c040;
   font-size: 18px;
   line-height: 1;
 }
@@ -1473,7 +1473,7 @@ section {
   line-height: 1;
 }
 #footer .footer-top .footer-links ul a:hover {
-  color: #cda45e;
+  color: #15c040;
 }
 #footer .footer-top .footer-newsletter form {
   margin-top: 30px;
@@ -1499,7 +1499,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px 2px 20px;
-  background: #cda45e;
+  background: #15c040;
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
@@ -1516,4 +1516,9 @@ section {
   text-align: center;
   font-size: 13px;
   color: #fff;
+}
+
+.Gmaps{
+height: 400px;
+width: 100%;
 }

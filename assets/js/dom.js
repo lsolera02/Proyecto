@@ -1,9 +1,11 @@
 //DOM = Document Object Model
 window.onload = specialsDomIncial;
 
+function specialsDomIncial(){
+    callService();
+}
 
-
-function specialsDom(){
+/*function specialsDom(){
     let specialDatos = document.getElementById("row-specials-datos");
     let specialImg = document.getElementById("row-specials-img");
     let tab = parseInt(this.name);
@@ -75,4 +77,4 @@ function specialsDomIncial(){
     specialImg.src = "";
     specialImg.src = urlImage;
     agregarEventos();
-}
+}*/
