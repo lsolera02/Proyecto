@@ -52,8 +52,8 @@ h1, h2, h3, h4, h5, h6 {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #1a1814;
-  border-top-color: #5e78cd;
-  border-bottom-color: #5e78cd;
+  border-top-color: #15c040;
+  border-bottom-color: #15c040;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -119,46 +119,6 @@ h1, h2, h3, h4, h5, h6 {
     transition-delay: 0 !important;
   }
 }
-/*--------------------------------------------------------------
-# Top Bar
---------------------------------------------------------------
-#topbar {
-  height: 40px;
-  font-size: 14px;
-  transition: all 0.5s;
-  z-index: 996;
-}
-#topbar.topbar-scrolled {
-  top: -40px;
-}
-#topbar .contacto-info i {
-  font-style: normal;
-  color: #d9ba85;
-}
-#topbar .contacto-info i span {
-  padding-left: 5px;
-  color: #fff;
-}
-#topbar .languages ul {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  color: #15c040;
-}
-#topbar .languages ul a {
-  color: white;
-}
-#topbar .languages ul li + li {
-  padding-left: 10px;
-}
-#topbar .languages ul li + li::before {
-  display: inline-block;
-  padding-right: 10px;
-  color: rgba(255, 255, 255, 0.5);
-  content: "/";
-}
 
 /*--------------------------------------------------------------
 # Header
@@ -194,7 +154,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------------------------------------------------
-# Book a table button Menu
+# Contacto
 --------------------------------------------------------------*/
 .contacto-btn {
   margin: 0 0 0 15px;
@@ -674,7 +634,7 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  background: url("../img/Fondo naturaleza.jpeg") center center;
+  background: url("https://lsolera02.github.io/recursos-proyecto/Fondo naturaleza.jpeg") center center;
   background-size: cover;
   position: relative;
   padding: 80px 0;
@@ -759,43 +719,6 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Why Us
---------------------------------------------------------------
-.why-us .box {
-  padding: 50px 30px;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  transition: all ease-in-out 0.3s;
-  background: #1a1814;
-}
-.why-us .box span {
-  display: block;
-  font-size: 28px;
-  font-weight: 700;
-  color: #15c040;
-}
-.why-us .box h4 {
-  font-size: 24px;
-  font-weight: 600;
-  padding: 0;
-  margin: 20px 0;
-  color: rgba(255, 255, 255, 0.8);
-}
-.why-us .box p {
-  color: #aaaaaa;
-  font-size: 15px;
-  margin: 0;
-  padding: 0;
-}
-.why-us .box:hover {
-  background: #15c040;
-  padding: 30px 30px 70px 30px;
-  box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
-}
-.why-us .box:hover span, .why-us .box:hover h4, .why-us .box:hover p {
-  color: #fff;
-}*/
-
-/*--------------------------------------------------------------
 # Menu Section
 --------------------------------------------------------------*/
 .menu #menu-flters {
@@ -876,59 +799,6 @@ section {
   font-size: 14px;
   font-family: "Poppins", sans-serif;
   color: rgba(255, 255, 255, 0.5);
-}
-
-/*--------------------------------------------------------------
-# Specials
---------------------------------------------------------------*/
-.specials {
-  overflow: hidden;
-}
-.specials .nav-tabs {
-  border: 0;
-}
-.specials .nav-link {
-  border: 0;
-  padding: 12px 15px;
-  transition: 0.3s;
-  color: #fff;
-  border-radius: 0;
-  border-right: 2px solid #15c040;
-  font-weight: 600;
-  font-size: 15px;
-}
-.specials .nav-link:hover {
-  color: #15c040;
-}
-.specials .nav-link.active {
-  color: #1a1814;
-  background: #15c040;
-  border-color: #15c040;
-}
-.specials .nav-link:hover {
-  border-color: #15c040;
-}
-.specials .tab-pane.active {
-  -webkit-animation: fadeIn 0.5s ease-out;
-  animation: fadeIn 0.5s ease-out;
-}
-.specials .details h3 {
-  font-size: 26px;
-  font-weight: 600;
-  margin-bottom: 20px;
-  color: #fff;
-}
-.specials .details p {
-  color: #aaaaaa;
-}
-.specials .details p:last-child {
-  margin-bottom: 0;
-}
-@media (max-width: 992px) {
-  .specials .nav-link {
-    border: 0;
-    padding: 15px;
-  }
 }
 
 /*--------------------------------------------------------------
