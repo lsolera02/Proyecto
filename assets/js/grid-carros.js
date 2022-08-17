@@ -1,5 +1,5 @@
 var datos;
-var urlApp = "https://lsolera02.github.io/Json-Proyecto/carros.json";
+var urlApp = "https://lsolera02.github.io/recursos-proyecto/carros.json";
 
 function callService () {
     $.ajax({
